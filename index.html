@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TriCode Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <svg id="nav-logo" width="48" height="48" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="48" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 3"/>
+                    <circle cx="50" cy="50" r="44" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 4"/>
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 5"/>
+                    <circle cx="50" cy="50" r="36" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 6"/>
+                    <circle cx="50" cy="50" r="31" fill="var(--accent)"/>
+                    <text x="24" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="var(--bg-color)" text-anchor="middle">&lt;</text>
+                    <text x="50" y="58" font-family="'Georgia', serif" font-size="32" font-weight="bold" fill="var(--bg-color)" text-anchor="middle" letter-spacing="-1">TC</text>
+                    <text x="76" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="var(--bg-color)" text-anchor="middle">&gt;</text>
+                </svg>
+            </a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#team">Team</a>
+                <a href="#learn">Learn</a>
+                <a href="#join" class="btn-primary">Get Started</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content fade-in">
+            <h2 class="mono-subtitle">//core</h2>
+            <h1 class="main-title">Build.<br>Break.<br>Evolve.</h1>
+            <p class="hero-desc">Crafting systems, building talent, and pushing ideas beyond limits.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Cities United<br><small>Chandigarh · Mohali · Panchkula</small></span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Core Members</span>
+                </div>
+            </div>
+            <div class="btn-group">
+                <a href="#join" class="btn-primary">Get Started</a>
+                <a href="#team" class="btn-secondary">Meet the Team</a>
+            </div>
+        </div>
+        <div class="hero-bg-elements"></div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Who We Are</h2>
+            <p class="section-lead fade-in">Developers, debuggers & creators.</p>
+            <div style="max-width: 700px;" class="fade-in">
+                <p>Open to anyone who wants to learn, build, and collaborate on real projects. We don't chase credentials. We build things, break things, and make them better.</p>
+            </div>
+            
+            <div class="philosophy-grid">
+                <div class="philosophy-card fade-in"><h3>Learn</h3></div>
+                <div class="philosophy-card fade-in"><h3>Build</h3></div>
+                <div class="philosophy-card fade-in"><h3>Collaborate</h3></div>
+                <div class="philosophy-card fade-in"><h3>Ship</h3></div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section id="learn" class="section">
+        <div class="container">
+            <h3 class="mono-subtitle fade-in">Learning Program</h3>
+            <h2 class="section-title fade-in">Program</h2>
+            
+            <div class="learn-grid">
+                <div class="learn-card fade-in">
+                    <p style="font-size: 1.25rem; font-weight: 600;">We train participants in:</p>
+                    <ul class="tech-list">
+                        <li>Web Development</li>
+                        <li>App Development</li>
+                        <li>Python</li>
+                        <li>Game Development</li>
+                    </ul>
+                    <a href="#join" class="text-link">Explore →</a>
+                </div>
+                
+                <div class="learn-features">
+                    <div class="feature fade-in">
+                        <div class="feature-icon">📅</div>
+                        <div class="feature-text">
+                            <h4>Recurring Weekly Sessions</h4>
+                            <p>Regular meetups focused on hands-on learning, building, and problem-solving. No slides. Just real execution every week.</p>
+                        </div>
+                    </div>
+                    <div class="feature fade-in">
+                        <div class="feature-icon">🔧</div>
+                        <div class="feature-text">
+                            <h4>Offline Workshops</h4>
+                            <p>Conducted across different organisations, focused on practical, real-world experience. We go where the learners are.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="methodology fade-in" style="margin-top: 5rem;">
+                <h3 class="mono-subtitle">How We Teach: The Method</h3>
+                <div class="method-flow">
+                    <span>Learn</span> → <span>Build</span> → <span>Break</span> → <span>Fix</span>
+                </div>
+                <div style="max-width: 700px;">
+                    <p>No theory overload. Just real execution. You only truly understand something once you have broken it.</p>
+                </div>
+                <blockquote class="quote">
+                    "Real skills come from building real things — not watching tutorials."
+                    <cite>— TriCode Philosophy</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section dark-section">
+        <div class="container">
+            <h2 class="mono-subtitle fade-in">&lt;team/&gt;</h2>
+            <h2 class="section-title fade-in">The People</h2>
+            <p class="section-lead fade-in">Meet the Team</p>
+            <p class="fade-in" style="max-width: 600px;">The people behind Tricode — building and working on real systems together.</p>
+
+            <div class="team-grid">
+                <!-- AJ -->
+                <div class="team-card fade-in">
+                    <div class="card-header">
+                        <img src="akshat.png" alt="Akshat Jain" class="team-avatar">
+                        <span class="role">★ Leader</span>
+                    </div>
+                    <h3>Akshat Jain</h3>
+                    <div class="callsign mono-subtitle">&lt;Chaos Coder&gt;</div>
+                    <p>Breaks systems to understand them and rebuilds them better. The one who stays up until the build passes — not because he has to, but because he has to know why it was failing.</p>
+                    <div class="tags">
+                        <span>Full Stack</span>
+                        <span>Leadership</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+
+                <!-- AS -->
+                <div class="team-card fade-in">
+                    <div class="card-header">
+                        <img src="aditya.png" alt="Aditya Sharma" class="team-avatar">
+                        <span class="role">◆ Co-Leader</span>
+                    </div>
+                    <h3>Aditya Sharma</h3>
+                    <div class="callsign mono-subtitle">&lt;Ghost Wire&gt;</div>
+                    <p>Works across systems and keeps everything connected and running smoothly. Operates quietly, shows up everywhere. The backbone you don't notice until it's gone.</p>
+                    <div class="tags">
+                        <span>Backend</span>
+                        <span>Systems</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+
+                <!-- AK -->
+                <div class="team-card fade-in">
+                    <div class="card-header">
+                        <img src="akshansh.png" alt="Akshansh Kakkar" class="team-avatar">
+                        <span class="role">◇ Addl. Leader</span>
+                    </div>
+                    <h3>Akshansh Kakkar</h3>
+                    <div class="callsign mono-subtitle">&lt;ScriptShaper&gt;</div>
+                    <p>Turns ideas into structured and working code. The one who actually reads the docs. Writes the scripts so none of us have to do it twice.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Scripting</span>
+                        <span>Automation</span>
+                        <span>MERN Stack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="join" class="section">
+        <div class="container">
+            <div class="cta-box fade-in">
+                <span class="mono-subtitle">// Get Involved</span>
+                <h2>Want to join or collaborate?</h2>
+                <p>Whether you're a beginner or experienced — if you want to build real things with real people, this is the place.</p>
+                <a href="mailto:tricodeclub@gmail.com" class="btn-primary" style="margin-top: 2rem;">Get Started →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-text" style="display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="48" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 3"/>
+                            <circle cx="50" cy="50" r="44" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 4"/>
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 5"/>
+                            <circle cx="50" cy="50" r="36" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="2 6"/>
+                            <circle cx="50" cy="50" r="31" fill="var(--accent)"/>
+                            <text x="24" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="var(--bg-color)" text-anchor="middle">&lt;</text>
+                            <text x="50" y="58" font-family="'Georgia', serif" font-size="32" font-weight="bold" fill="var(--bg-color)" text-anchor="middle" letter-spacing="-1">TC</text>
+                            <text x="76" y="60" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="var(--bg-color)" text-anchor="middle">&gt;</text>
+                        </svg>
+                        TriCode
+                    </div>
+                    <p>Tricity's developer collective — uniting Chandigarh, Mohali and Panchkula's best coders under one banner.</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><span style="display:inline-block; width:20px;">📍</span> Chandigarh · Mohali · Panchkula</li>
+                        <li><span style="display:inline-block; width:20px;">✉</span> tricodeclub@gmail.com</li>
+                        <li><span style="display:inline-block; width:20px;">⚡</span> Within 24 hours</li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Pages</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#learn">Learn</a></li>
+                        <li><a href="#join">Join Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/tricodeclub?igsh=NWhpeXBnMHVsaG80">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="callsigns">
+                    <span>Callsigns:</span>
+                    <span>&lt;Chaos Coder&gt;</span>
+                    <span>&lt;Ghost Wire&gt;</span>
+                    <span>&lt;ScriptShaper&gt;</span>
+                </div>
+                <div class="copyright">
+                    © 2024–2026 TriCode Club. All rights reserved.<br>
+                    Built with ♥ in the Tricity
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
